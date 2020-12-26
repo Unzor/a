@@ -1,6 +1,7 @@
 do
 Set wshshell = wscript.CreateObject("WScript.Shell") 
 Wshshell.run "cmd" 
+  wscript.sleep 100
 wshshell.sendkeys "w"
 wscript.sleep 1
 wshshell.sendkeys "m"
